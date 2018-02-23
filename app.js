@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const index = require('./router/index')
 const movie = require('./router/movie')
 
-mongoose.connect("mongodb://localhost:27017/local")
+mongoose.connect("mongodb://localhost:27017/movie")
 mongoose.Promise = global.Promise
 
 const app = express()
